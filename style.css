@@ -1,0 +1,263 @@
+body
+{
+    background-image: url(img/bg-body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+article
+{
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    color: floralwhite;
+    font-size-adjust: auto;
+    font-family: cursive;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+#games
+{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+.square 
+{
+    width: 120px;
+    height: 120px;
+    background-color: lightblue;
+    margin: 5px;
+    font-size: 50px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0);
+    border-style: inset;
+    text-align: center;
+    transition: all .85s ease-in-out;
+    border-radius: 5px;
+    padding: 0 0 0 6px;
+    font-size: 30pt;
+    cursor: pointer;
+}
+.square:hover
+{
+    color: #fff;
+    background: #004d4d;
+    transform: translate(10px,-10px);
+    animation: solution 2.5s ease-in-out infinite alternate;
+}
+#text
+{
+    margin:120px auto ;
+    text-align: center;
+    border-spacing: inherit;
+    font-size: 35px;
+}
+ /* ******************************************************************************************************************* */
+
+
+
+
+
+
+
+
+/* **********************************************************Match************************************************************************** */
+.titleScore
+            {
+                margin-left: 30%;
+                margin-top: 155px;
+            }
+            .answer {
+				width: 15%;
+                height: 15%;
+                position: relative;
+                bottom: 0px;
+                right: 0px;
+			}
+			.answer.show {
+				visibility: visible;
+			}
+            
+			.answer.hide {
+				visibility: hidden;
+			}
+            .dropzone
+            {
+                width: 90%;
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: auto;
+            }
+            .drop1 {
+				width: 200px;
+                height: 150px;
+                background-color: rgba(51, 51, 51, 0.5);
+			}
+            #apple {
+				background-image: url(img/apple-bg.png);
+                background-size: 100% auto;
+				background-repeat: no-repeat;
+				background-position: center;
+                width: 100%;
+                height: 100%;
+			}
+            .drop2 {
+				width: 200px;
+                height: 150px;
+                background-color: rgba(51, 51, 51, 0.5);
+                margin-left: 15px;
+			}
+            #bananas {
+				background-image: url(img/bananas-bg.png);
+                background-size: 100% auto;
+				background-repeat: no-repeat;
+				background-position: center;
+                width: 100%;
+                height: 100%;
+			}
+            .drop3 {
+				width: 200px;
+                height: 150px;
+                background-color: rgba(51, 51, 51, 0.5);
+                margin-left: 15px;
+			}
+            #cherries {
+				background-image: url(img/cherries-bg.png);
+                background-size: 100% auto;
+				background-repeat: no-repeat;
+				background-position: center;
+                width: 100%;
+                height: 100%;
+			}
+            .drop4 {
+				width: 200px;
+                height: 150px;
+                background-color: rgba(51, 51, 51, 0.5);
+                margin-left: 15px;
+			}
+            #grapes {
+				background-image: url(img/grapes-bg.png);
+                background-size: 100% auto;
+				background-repeat: no-repeat;
+				background-position: center;
+                width: 100%;
+                height: 100%;
+			}
+            .drop5 {
+				width: 200px;
+                height: 150px;
+                background-color: rgba(51, 51, 51, 0.5);
+                margin-left: 15px;
+			}
+            #pear {
+				background-image: url(img/pear-bg.png);
+                background-size: 100% auto;
+				background-repeat: no-repeat;
+				background-position: center;
+                width: 100%;
+                height: 100%;
+			}
+            .drop6 {
+				width: 200px;
+                height: 150px;
+                background-color: rgba(51, 51, 51, 0.5);
+                margin-top: 15px;
+			}
+            #strawberry {
+				background-image: url(img/strawberry-bg.png);
+                background-size: 100% auto;
+				background-repeat: no-repeat;
+				background-position: center;
+                width: 100%;
+                height: 100%;
+			}
+            .drop7 {
+				width: 200px;
+                height: 150px;
+                background-color: rgba(51, 51, 51, 0.5);
+                margin-top: 15px;
+                margin-left: 15px;
+			}
+            #watermelon {
+				background-image: url(img/watermelon-bg.png);
+                background-size: 100% auto;
+				background-repeat: no-repeat;
+				background-position: center;
+                width: 100%;
+                height: 100%;
+			}
+            .drop8 {
+				width: 200px;
+                height: 150px;
+                background-color: rgba(51, 51, 51, 0.5);
+                margin-top: 15px;
+                margin-left: 15px;
+			}
+            #carrot {
+				background-image: url(img/carrot-bg.png);
+                background-size: 100% auto;
+				background-repeat: no-repeat;
+				background-position: center;
+                width: 100%;
+                height: 100%;
+			}
+            .drop9 {
+				width: 200px;
+                height: 150px;
+                background-color: rgba(51, 51, 51, 0.5);
+                margin-top: 15px;
+                margin-left: 15px;
+			}
+            #lemon {
+				background-image: url(img/lemon-bg.png);
+                background-size: 100% auto;
+				background-repeat: no-repeat;
+				background-position: center;
+                width: 100%;
+                height: 100%;
+			}
+            .drop10 {
+				width: 200px;
+                height: 150px;
+                background-color: rgba(51, 51, 51, 0.5);
+                margin-top: 15px;
+                margin-left: 15px;
+			}
+            #tomato {
+				background-image: url(img/tomato-bg.png);
+                background-size: 100% auto;
+				background-repeat: no-repeat;
+				background-position: center;
+                width: 100%;
+                height: 100%;
+			}
+            .dragzone
+            {
+                width: 100%;
+                display: flex;
+                margin-top: 20px;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

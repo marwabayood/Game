@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Match</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <style>
+            body
+            {
+                background-image: url(img/bg-fruits.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="titleScore">
+            <h1>Your score is <span id="score">0</span>/10.</h1>
+            <h2>Match this words to this images </h2>
+        	<h3>Score will be calculated based on how many icons you got right!</h3>
+		</div>
+        <div class="dropzone" id="dropzone-holder">
+            <div class="drop1">
+                <img class="answer hide" src="img/correct-green.png" />
+                <div id="apple"  ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+            </div>
+            <div class="drop2">
+                <img class="answer hide" src="img/correct-green.png" />
+                <div id="bananas"  ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+            </div>
+            <div class="drop3">
+                <img class="answer hide" src="img/correct-green.png" />
+                <div id="cherries"  ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+            </div>
+            <div class="drop4">
+                <img class="answer hide" src="img/correct-green.png" />
+                <div id="grapes"  ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+            </div>
+            <div class="drop5">
+                <img class="answer hide" src="img/correct-green.png" />
+                <div id="pear"  ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+            </div>
+            <div class="drop6">
+                <img class="answer hide" src="img/correct-green.png" />
+                <div id="strawberry"  ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+            </div>
+            <div class="drop7">
+                <img class="answer hide" src="img/correct-green.png" />
+                <div id="watermelon"  ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+            </div>
+            <div class="drop8">
+                <img class="answer hide" src="img/correct-green.png" />
+                <div id="carrot"  ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+            </div>
+            <div class="drop9">
+                <img class="answer hide" src="img/correct-green.png" />
+                <div id="lemon"  ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+            </div>
+            <div class="drop10">
+                <img class="answer hide" src="img/correct-green.png" />
+                <div id="tomato"  ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+            </div>
+        </div>
+        <div class="dragzone">
+            <div id="dropzone-container" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)">
+				<img id="icon-apple" class="icon" draggable="true" ondragstart="return start(event)" ondragend="return end(event)" src="img/apple.png">
+				<img id="icon-bananas" class="icon" draggable="true" ondragstart="return start(event)" ondragend="return end(event)" src="img/bananas.png">
+				<img id="icon-carrot" class="icon" draggable="true" ondragstart="return start(event)" ondragend="return end(event)" src="img/carrot.png">
+				<img id="icon-cherries" class="icon" draggable="true" ondragstart="return start(event)" ondragend="return end(event)" src="img/cherries.png">
+				<img id="icon-grapes" class="icon" draggable="true" ondragstart="return start(event)" ondragend="return end(event)" src="img/grapes.png">
+				<img id="icon-lemon" class="icon" draggable="true" ondragstart="return start(event)" ondragend="return end(event)" src="img/lemon.png">
+				<img id="icon-pear" class="icon" draggable="true" ondragstart="return start(event)" ondragend="return end(event)" src="img/pear.png">
+				<img id="icon-strawberry" class="icon" draggable="true" ondragstart="return start(event)" ondragend="return end(event)" src="img/strawberry.png">
+				<img id="icon-tomato" class="icon" draggable="true" ondragstart="return start(event)" ondragend="return end(event)" src="img/tomato.png">
+				<img id="icon-watermelon" class="icon" draggable="true" ondragstart="return start(event)" ondragend="return end(event)" src="img/watermelon.png">
+           </div>
+        </div>
+        <audio id="myAudio">
+            <source src="audio/clibs.mp3" type="audio/mp3">
+        </audio>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
